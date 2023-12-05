@@ -1,0 +1,37 @@
+@import url(../fonts/stylesheet.css);
+
+body {
+    font-family: 'TT Lakes', 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+
+.sideBar {
+ width: 320px;
+}
+
+.header {
+    display: flex;
+    height: 88px;
+    align-items: center;
+}
+
+.inner-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-button__button {
+    height: 40px;
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+  }
+
+.nav__list {
+    list-style-type: none;
+}
+
+
