@@ -55,14 +55,14 @@ body {
     
 }
 
-.nav__item {
+.nav .nav__item {
   line-height: 3.5em;
   padding-left: 1.5rem;
   background: url("../img/highlight.svg") -10px 50% no-repeat;
   transition: all 0.4s ease-in-out;
 }
 
-.nav__item:hover {
+.nav .nav__item label:hover {
   color: #7E7E82;
   background-position: 0 50%;
 }
@@ -155,6 +155,23 @@ body {
   width: 60%;
 }
 
+.contact-mail {
+  transform-origin: left top;
+  transition: transform 0.4s ease;
+}
+
+.contact-mail:hover {
+  transform: scale(1.1);
+}
+
+.contact-number {
+  transition: word-spacing 0.4s ease;
+}
+
+.contact-number:hover {
+  word-spacing: 3px;
+}
+
 .contact-number {
   font-size: 24px;
   line-height: 32px;
@@ -168,6 +185,21 @@ body {
   display: flex;
   width: 30%;
   justify-content: space-between;
+  transition: all 0.4s ease;
+}
+
+.lang .nav__item input[type=radio] {
+  display: none;
+}
+
+.lang .nav__item input[type=radio] ~ label {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.lang .nav__item input[type=radio]:checked ~ label {
+  color: #7E7E82;
+  font-size: 0.9em;
 }
 
 
@@ -178,3 +210,4 @@ body {
 .contact-click--margins {
   margin-bottom: 1.2rem;
 }
+
