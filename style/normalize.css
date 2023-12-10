@@ -348,6 +348,7 @@
     display: none;
   }
 
+  .nav__list,
   button {
     cursor: pointer !important;
   }
