@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!-- Для чего кнопки отдельно в див оборачивать? 
+Для внешнего позиционироавния и маргинов. Да и осталась конструкция с прошлого проекта-->
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -32,17 +34,16 @@
                 </div>
             </div>
         </header>
-        <main class="main">
             <nav class="nav nav--margins">
                 <ul class="nav__list">
-                    <li class="nav__item">Ремонт техники</li>
-                    <li class="nav__item">Услуги и сервисы</li>
-                    <li class="nav__item">Корпоративным клиентам</li>
-                    <li class="nav__item">Продавцам техники</li>
-                    <li class="nav__item">Партнерам</li>
-                    <li class="nav__item">Производителям</li>
-                    <li class="nav__item">Наши сервисные центры</li>
-                    <li class="nav__item">Контакты</li>
+                    <li class="nav__item"><a href="#">Ремонт техники</a></li>
+                    <li class="nav__item"><a href="#"></a>Услуги и сервисы</a></li>
+                    <li class="nav__item"><a href="#"></a>Корпоративным клиентам</a></li>
+                    <li class="nav__item"><a href="#"></a>Продавцам техники</a></li>
+                    <li class="nav__item"><a href="#"></a>Партнерам</a></li>
+                    <li class="nav__item"><a href="#"></a>Производителям</a></li>
+                    <li class="nav__item"><a href="#"></a>Наши сервисные центры</a></li>
+                    <li class="nav__item"><a href="#"></a>Контакты</a></li>
                 </ul>
             </nav>
             <footer class="footer">
@@ -65,8 +66,12 @@
                                 </button>
                             </div>                        
                         </div>
-                        <div class="contact-mail contact-click--margins">mail@cps.com</div>
-                        <div class="contact-number nav--margins">8 800 890 8900</div>
+                        <div class="contact-mail contact-click--margins">
+                            <a href="#">mail@cps.com</a>
+                        </div>
+                        <div class="contact-number nav--margins">
+                            <a href="#">8 800 890 8900</a>
+                        </div>
                     </div>
                     <div class="lang">
                         <ul class="nav__list contact-click--margins">
@@ -86,7 +91,6 @@
                     </div>
                 </div>
             </footer>
-        </main>
     </aside>
 </body>
 </html>

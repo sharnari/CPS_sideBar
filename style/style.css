@@ -12,13 +12,12 @@ body {
   left: 0%;
   top: 0%;
   overflow: auto;
+  height: 100vh;
+  box-shadow: 16px 0px 52px 0px #0E185033;
+
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
 
 .header {
     display: flex;
@@ -55,8 +54,16 @@ body {
     
 }
 
+.contact-mail a,
+.contact-number a,
+.nav .nav__item a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .nav .nav__item {
-  line-height: 3.5em;
+  /* line-height: 3.5em; */
+  line-height: 6vh;
   padding-left: 1.5rem;
   background: url("../img/highlight.svg") -10px 50% no-repeat;
   transition: all 0.4s ease-in-out;
@@ -120,7 +127,10 @@ body {
 
 .footer {
   display: flex;
+  width: 100%;
   justify-self: end;
+  position: absolute;
+  bottom: 0;
 }
 
 .menu-button__button--background--chat-copy {
